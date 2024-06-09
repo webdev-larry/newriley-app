@@ -35,7 +35,7 @@ Code Maintainability and Scalability:
 
 Writing clean, maintainable code that scales well as the application grows requires careful planning and adherence to best practices, which can be challenging under tight deadlines.
 
-9. Performance Optimization:
+ Performance Optimization:
 
 Ensuring optimal performance of both front-end and back-end components, including efficient loading times and server response times, may require extensive testing and optimization.
 10. Version Control and Collaboration:
