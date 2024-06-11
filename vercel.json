@@ -11,7 +11,7 @@
   "builds": [
     {
       "src": "public/index.php",
-      "use": "@vercel/php",
+     
       "config": {
         "script": "build.sh"
       }
