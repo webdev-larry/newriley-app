@@ -7,16 +7,14 @@
       "src": "/(.*)",
       "dest": "/api/index.php"
     }
-  ],
-  "builds": [
-    {
-      "src": "public/index.php",
-     
-      "config": {
+  ], "builds": [
+        { "src": "/api/index.php", "use": "vercel-php@0.3.1" },
+        { "src": "/public/**", "use": "@vercel/static" },
+        "config": {
         "script": "build.sh"
       }
-    }
-  ],
+    ],
+
   "env": {
     "APP_ENV": "production",
     "APP_DEBUG": "true",
